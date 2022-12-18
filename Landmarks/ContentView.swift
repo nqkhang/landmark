@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-
         VStack {
             MapView()
                 .ignoresSafeArea(edges: .top)
@@ -31,7 +30,7 @@ struct ContentView: View {
                 .foregroundColor(.secondary)
                 
                 Divider()
-
+                
                 Text("About Turtle Rock")
                     .font(.title2)
                 Text("Descriptive text goes here.")
@@ -39,8 +38,6 @@ struct ContentView: View {
             .padding()
             Spacer()
         }
-            
-        
     }
 }
 
